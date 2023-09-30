@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+h1{
+    min-height: 30px;
+    text-align: center;
+    color: azure;
+    
+}
+
+.row{
+    display: flex;
+    padding: 3px;
+    justify-content: center;
+}
+.num{
+    min-width: 50px;
+    min-height: 60px;
+    border-radius: 25px;
+    margin: 15px;
+    color: orange;
+    cursor: pointer;
+}
+.output{
+    display: flex;
+    min-height: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    min-width: 300px;
+    min-height: 50px;
+    border-color:orange ;
+    background-color:white;
+}
